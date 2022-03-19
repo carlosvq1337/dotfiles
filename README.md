@@ -30,7 +30,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 vim ~/.vimrc
 ```
-5. Install the listed plugins via `Plug`, with the vim command:
+5. Install the listed plugins via *Plug*, with the vim command:
 
 > :PlugInstall
 
