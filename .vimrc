@@ -24,7 +24,6 @@ Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-utils/vim-man'
 Plug 'git@github.com:kien/ctrlp.vim.git'
-Plug 'git@github.com:Valloric/YouCompleteMe.git'
 Plug 'mbbill/undotree'
 
 call plug#end()
@@ -52,7 +51,5 @@ nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 nnoremap <leader>ps :Rg<SPACE>
 nnoremap <silent> <Leader>= :vertical resize +5<CR>
 nnoremap <silent> <Leader>- :vertical resize -5<CR>
-nnoremap <silent> <Leader>gd :YcmCompleter GoToDefinition<CR>
-nnorema <silent> <Leader>gf :YcmCompleter FixIt<CR>
 nnoremap <leader>; :%s:::g<Left><Left><Left>
 nnoremap <leader>;; :%s:::gc<Left><Left><Left><Left>   
