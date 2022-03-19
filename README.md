@@ -25,8 +25,7 @@ wget https://raw.githubusercontent.com/carlosvq1337/dotfiles/main/.vimrc -P ~/
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-4. Open the freshly downloaded `.vimrc` file in Vim:
-
+4. Open the freshly downloaded `.vimrc` file in Vim (You might encounter an error related to the chosen colorscheme, press Enter when prompted):
 ```
 vim ~/.vimrc
 ```
