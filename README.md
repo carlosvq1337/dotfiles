@@ -33,3 +33,11 @@ vim ~/.vimrc
 
 > :PlugInstall
 
+6. Once all plugins are installed, return focus to your `.vimrc` file within Vim, and source this file:
+
+```
+source %
+```
+
+You should now see the *gruvbox* colorscheme applied and all settings and remaps should be available to you!
+
