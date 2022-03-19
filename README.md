@@ -19,3 +19,18 @@ rm -rf ~/.vim && rm -f ~/.vimrc
 ```
 wget https://raw.githubusercontent.com/carlosvq1337/dotfiles/main/.vimrc -P ~/
 ```
+3. Install *Plug*, a Vim plugin manager:
+
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+4. Open the freshly downloaded `.vimrc` file in Vim:
+
+```
+vim ~/.vimrc
+```
+5. Install the listed plugins via `Plug`, with the vim command:
+
+> :PlugInstall
+
